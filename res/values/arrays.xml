@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="deletion_frequency_options">
+        <item >Daily</item>
+        <item >Weekly</item>
+        <item >Monthly</item>
+    </string-array>
+    
+    <string-array name="sort_by_options">
+        <item >Date added</item>
+        <item >Location</item>
+        <item >Temperature</item>
+    </string-array>
+    
+    <string-array name="deletion_frequency">
+        <item >1</item>
+        <item >7</item>
+        <item >30</item>
+    </string-array>
+    
+    <string-array name="sort_by">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+    </string-array>
+    
+    
+</resources>

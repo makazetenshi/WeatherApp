@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:key="PREF_DELETION_TIME" 
+        android:title="Delete after"
+        android:summary="Delete data after set interval"
+        android:entries="@array/deletion_frequency_options"
+        android:entryValues="@array/deletion_frequency"
+        android:dialogTitle="Data Deletion"
+        android:defaultValue="7"
+         />
+    
+    <ListPreference
+        android:key="PREF_SORT_BY" 
+        android:title="Sort data by"
+        android:summary="Sort weatherdata by"
+        android:entries="@array/sort_by_options"
+        android:entryValues="@array/sort_by"
+        android:dialogTitle="Sorting"
+        android:defaultValue="1"
+         />
+    
+
+</PreferenceScreen>

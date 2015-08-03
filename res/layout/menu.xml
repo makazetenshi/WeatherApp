@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv1"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnCrPos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCrPos"
+        android:onClick="clickCreatePos"
+        android:layout_marginBottom="20dp"
+        />
+    
+    <Button
+        android:id="@+id/btnOldData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOldData"
+        android:onClick="clickShowData"
+        android:layout_marginBottom="20dp"
+        />
+        
+    <Button
+        android:id="@+id/btnAllLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAllLoc"
+        android:onClick="clickShowPos"
+        android:layout_marginBottom="20dp"
+        />
+    
+
+</LinearLayout>
